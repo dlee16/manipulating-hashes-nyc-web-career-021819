@@ -9,7 +9,10 @@ def second_challenge
   #code your solution here!
 list={}
 
-
+locations ={}
+  schools.values.each {|place| locations[place.values[0]]= []}
+  schools.each {|school, place| locations[place.values[0]]<< school}
+  locations
   
 
 end
