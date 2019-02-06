@@ -13,7 +13,9 @@ def first_challenge
     }
   }
 
-  first_challenge["Freddy Mercury"][:favorite_icecream_flavors].reject! {|key, value| value =="strawberry"}
+  contacts.each do |person, info|
+    info.each do |key, value|
+      
 
 
   #remember to return your newly altered contacts hash!
