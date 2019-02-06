@@ -10,7 +10,6 @@ def second_challenge
 list ={}
 groceries.values.each {|item| item.values[0]<< list} 
 list
-end
 
 # locations ={}
 #   schools.values.each {|place| locations[place.values[0]]= []}
