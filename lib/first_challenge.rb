@@ -13,8 +13,7 @@ def first_challenge
     }
   }
 
-  first_challenge["Freddy Mercury"][:favorite_icecream_flavors].to_not include("strawberry")
-  # reject! {|key, value| value =="strawberry"}
+  first_challenge["Freddy Mercury"][:favorite_icecream_flavors].reject! {|key, value| value =="strawberry"}
 
 
   #remember to return your newly altered contacts hash!
