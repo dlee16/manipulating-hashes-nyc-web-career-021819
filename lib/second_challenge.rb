@@ -7,14 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-list ={}
-groceries.values.each {|item| item.values[0]<< list} 
-list
-
-# locations ={}
-#   schools.values.each {|place| locations[place.values[0]]= []}
-#   schools.each {|school, place| locations[place.values[0]]<< school}
-#   locations
+groceries.values.flatten
   
 
 end
