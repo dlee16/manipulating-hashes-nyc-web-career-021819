@@ -12,10 +12,10 @@ groceries.values.each {|item| item.values[0]<< list}
 list
 end
 
-locations ={}
-  schools.values.each {|place| locations[place.values[0]]= []}
-  schools.each {|school, place| locations[place.values[0]]<< school}
-  locations
+# locations ={}
+#   schools.values.each {|place| locations[place.values[0]]= []}
+#   schools.each {|school, place| locations[place.values[0]]<< school}
+#   locations
   
 
 end
