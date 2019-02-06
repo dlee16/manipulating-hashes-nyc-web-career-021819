@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  first_challenge.reject {|key, value| ["Freddy Mercury"][:favorite_icecream_flavors].reject("strawberry")
+  first_challenge.reject {|key, value| value =="strawberry"}
 
 
   #remember to return your newly altered contacts hash!
