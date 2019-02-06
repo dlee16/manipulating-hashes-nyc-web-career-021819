@@ -8,7 +8,9 @@ def second_challenge
 
   #code your solution here!
 list ={}
-groceries.values.each {|item| 
+groceries.values.each {|item| item.values[0]<< list} 
+list
+end
 
 locations ={}
   schools.values.each {|place| locations[place.values[0]]= []}
