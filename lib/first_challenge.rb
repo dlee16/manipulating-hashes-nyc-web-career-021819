@@ -13,7 +13,7 @@ def first_challenge
     }
   }
 
-  first_challenge["Freddy Mercury"][:favorite_icecream_flavors].exclude?('')
+  first_challenge["Freddy Mercury"][:favorite_icecream_flavors].exclude?("strawberry")
 
 
   #remember to return your newly altered contacts hash!
